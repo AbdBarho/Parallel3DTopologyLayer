@@ -14,3 +14,9 @@ computes toplogy loss on a axis `epoch % 3`
 
 ### Topo3DLossAllAxes
 computes toplogy loss on all axes, as an average of the individual axis
+
+
+
+
+
+This was used as part of our submission for the PARSE 2022 challenge.
