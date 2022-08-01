@@ -1,5 +1,16 @@
 # Parallel3DTopologyLayer
-A  3D slice-wise-parallel version of Topology Layer
+A 3D slice-wise-parallel version of Topology Layer
 
 
-This is a CPU-parallized implementation of [TopologyLayer](https://github.com/bruel-gabrielsson/TopologyLayer).
+This is a CPU-parallelized implementation of [TopologyLayer](https://github.com/bruel-gabrielsson/TopologyLayer).
+
+## Classes
+
+### Topo3DLoss
+computes toplogy loss on each slice on the first axis individually.
+
+### Topo3DLossRotatingAxis
+computes toplogy loss on a axis `epoch % 3`
+
+### Topo3DLossAllAxes
+computes toplogy loss on all axes, as an average of the individual axis
