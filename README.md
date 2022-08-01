@@ -2,7 +2,7 @@
 A 3D slice-wise-parallel version of Topology Layer
 
 
-This is a CPU-parallelized implementation of [TopologyLayer](https://github.com/bruel-gabrielsson/TopologyLayer).
+This is a CPU-parallelized implementation on top of [TopologyLayer](https://github.com/bruel-gabrielsson/TopologyLayer).
 
 ## Classes
 
